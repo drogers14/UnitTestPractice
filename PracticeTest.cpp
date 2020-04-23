@@ -44,6 +44,8 @@ TEST(PracticeTest, is_descending)
 
   obj.sortDescending(one,two,three );
   EXPECT_LT(two, one);
+  EXPECT_LT(three, two);
+  EXPECT_LET(three, one);
 }
 
 TEST(PracticeTest, is_ascending)
