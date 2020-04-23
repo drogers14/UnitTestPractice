@@ -35,7 +35,7 @@ TEST(PracticeTest, is_a_palindrome)
   ASSERT_TRUE(actual);
 }
 
-TEST(PracticeTest, is_ascending)
+TEST(PracticeTest, is_descending)
 {
   Practice obj;
   int one = 4;
@@ -44,4 +44,15 @@ TEST(PracticeTest, is_ascending)
 
   obj.sortDescending(one,two,three );
   EXPECT_LT(two, one);
+}
+
+TEST(PracticeTest, is_ascending)
+{
+  Practice obj;
+  int one = 3;
+  int two = 2;
+  int three = 3;
+
+  obj.sortDescending(one,two,three );
+  EXPECT_LT(three, one);
 }
