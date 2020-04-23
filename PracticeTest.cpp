@@ -43,5 +43,5 @@ TEST(PracticeTest, is_ascending)
   int three = 3;
 
   obj.sortDescending(one,two,three );
-  EXPECT_LT(one, two);
+  EXPECT_LT(two, one);
 }
