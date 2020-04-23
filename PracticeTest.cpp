@@ -38,6 +38,7 @@ TEST(PracticeTest, is_a_palindrome)
 TEST(PracticeTest, is_ascending)
 {
     Practice obj;
-    bool actual = obj.sortDescending("2, 3, 4");
+    int arr[3] = {2, 3, 4}
+    bool actual = obj.sortDescending(arr);
     ASSERT_TRUE(actual);
 }
