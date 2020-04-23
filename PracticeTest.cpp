@@ -34,3 +34,10 @@ TEST(PracticeTest, is_a_palindrome)
     bool actual = obj.isPalindrome("#$#");
     ASSERT_TRUE(actual);
 }
+
+TEST(PracticeTest, is_ascending)
+{
+    Practice obj;
+    bool actual = obj.sortDescending("2, 3, 4");
+    ASSERT_TRUE(actual);
+}
