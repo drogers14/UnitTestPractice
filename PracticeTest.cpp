@@ -65,5 +65,5 @@ TEST(PracticeTest, is_ascending_fail)
   int three = 3;
 
   obj.sortDescending(one,two,three );
-  EXPECT_LT(three, one);
+  EXPECT_GE(three, one);
 }
