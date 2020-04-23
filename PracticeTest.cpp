@@ -56,3 +56,14 @@ TEST(PracticeTest, is_ascending)
   obj.sortDescending(one,two,three );
   EXPECT_LT(three, one);
 }
+
+TEST(PracticeTest, is_ascending_fail)
+{
+  Practice obj;
+  int one = 3;
+  int two = 3;
+  int three = 3;
+
+  obj.sortDescending(one,two,three );
+  EXPECT_LT(three, one);
+}
