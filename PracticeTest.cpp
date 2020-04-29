@@ -38,7 +38,7 @@ TEST(PracticeTest, is_a_palindrome)
 TEST(PracticeTest, a_palindrome_1)
 {
   Practice obj;
-  char x = '\0';
+  char x = ' ';
   string y = x+x+x;
   bool actual = obj.isPalindrome(y);
   ASSERT_TRUE(actual);
