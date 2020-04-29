@@ -43,6 +43,14 @@ TEST(PracticeTest, a_palindrome_1)
   ASSERT_TRUE(actual);
 }
 
+TEST(PracticeTest, a_palindrome_2)
+{
+  Practice obj;
+  string y = "\0";
+  bool actual = obj.isPalindrome(y);
+  ASSERT_TRUE(actual);
+}
+
 TEST(PracticeTest, is_descending)
 {
   Practice obj;
