@@ -85,3 +85,14 @@ TEST(PracticeTest, is_ascending_fail)
   obj.sortDescending(one,two,three );
   EXPECT_GE(three, one);
 }
+
+TEST(PracticeTest, test1)
+{
+  Practice obj;
+  int one = 2147483647;
+  int two = 2147483647+1;
+  int three = -2147483647;
+
+  obj.sortDescending(one,two,three );
+  EXPECT_GE(three, one);
+}
