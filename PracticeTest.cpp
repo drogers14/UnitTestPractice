@@ -94,5 +94,5 @@ TEST(PracticeTest, test1)
   int three = -2;
 
   obj.sortDescending(one,two,three );
-  EXPECT_GE(three, one);
+  EXPECT_LE(three, one);
 }
