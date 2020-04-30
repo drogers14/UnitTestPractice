@@ -134,8 +134,8 @@ TEST(PracticeTest, test5)
 {
   Practice obj;
   int one =-1;
-  int two =-2;
-  int three =2;
+  int two =2;
+  int three =-2;
 
   obj.sortDescending(one,two,three );
   EXPECT_LE(three, one);
