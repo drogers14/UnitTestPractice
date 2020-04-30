@@ -119,7 +119,7 @@ TEST(PracticeTest, test3)
   EXPECT_LE(three, one);
 }
 
-TEST(PracticeTest, test3)
+TEST(PracticeTest, test4)
 {
   Practice obj;
   int one =2 ;
