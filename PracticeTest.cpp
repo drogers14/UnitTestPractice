@@ -118,3 +118,14 @@ TEST(PracticeTest, test3)
   obj.sortDescending(one,two,three );
   EXPECT_LE(three, one);
 }
+
+TEST(PracticeTest, test3)
+{
+  Practice obj;
+  int one =2 ;
+  int two = 3;
+  int three = 1;
+
+  obj.sortDescending(one,two,three );
+  EXPECT_LE(three, one);
+}
